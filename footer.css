@@ -1,0 +1,43 @@
+* {
+    font-family: 'Balsamiq Sans';
+  }
+footer{
+    background-color: black;
+    /* background-color: transparent; */
+    background: linear-gradient(transparent, black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+    position: -ms-page;
+    width: 100%;
+    bottom: 0;
+}
+.footer_index{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.footer_index_a, .footer_index_span{
+    color: white;
+    margin: 2px 4%;
+    font-size: 15px;
+    text-decoration: none;
+}
+.footer_index_a>i{
+    font-size: 20px;
+    color: white;
+}
+.footer_index_a:hover{
+    transform: scale(1.2);
+}
+.footer_index_a>i:hover{
+    transform: scale(1);
+}
+@media screen and (max-width:500px) {
+    .footer_index{
+        justify-content: justify;
+    }
+}

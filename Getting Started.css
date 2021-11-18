@@ -1,0 +1,218 @@
+*{
+    font-family: 'Balsamiq Sans';
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background: rgb(10, 10, 30);
+    background: rgb(26,16,118);
+}
+body{
+    background: rgb(30,4,52);
+}
+.container{
+    background: rgb(10, 10, 30);
+    background: linear-gradient(rgb(30,4,52), rgb(26,16,118));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+.skill{
+    height: 100px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+.b{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    padding: 2px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.s1{
+    position: relative;
+    top: 50px;
+}
+.s5{
+    position: relative;
+    bottom: 50px;
+}
+.s1b1, .s2b1, .s2b3, .s3b1, .s3b5, .s4b1, .s4b3, .s5b1 {
+    background: linear-gradient(rgb(10, 10, 30), rgb(26,16,118));
+}
+.s3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.line{
+    background-color: white;
+    width: 60%;
+    border-radius: 2px solid white;
+    height: 3px;
+    position: relative;
+    top: 30px;
+}
+/* hr{
+    width: 70%;
+    position: relative;
+    top: 40px;
+    font-weight: 900;
+} */
+
+@media screen and (max-width:550px) {
+    a{
+        font-size: small;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .skills{
+        width: 100%;
+        height: 400px;
+    }
+    .skill{
+        height: 20%;
+        width: 100%;
+    }
+    .b{
+        width: 80px;
+        height: 80px;
+    }
+    .s1{
+        top: 40px;
+    }
+    .s5{
+        bottom: 40px;
+    }
+    .s3{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    a{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .skills{
+        width: 100%;
+        height: 300px;
+    }
+    .skill{
+        height: 20%;
+        width: 100%;
+    }
+    .b{
+        width: 60px;
+        height: 60px;
+    }
+    .s1{
+        top: 30px;
+    }
+    .s5{
+        bottom: 30px;
+    }
+    .s3{
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    a{
+        font-size: 8px;
+    }
+    h1{
+        font-size: 17px;
+    }
+    .skills{
+        width: 100%;
+        height: 200px;
+    }
+    .skill{
+        height: 20%;
+        width: 100%;
+    }
+    .b{
+        width: 45px;
+        height: 40px;
+    }
+    .s1{
+        top: 20px;
+    }
+    .s5{
+        bottom: 20px;
+    }
+    .s3{
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+}
+
+@media screen and (max-width:270px) {
+    a{
+        font-size: 5px;
+    }
+    h1{
+        font-size: 13px;
+    }
+    .skills{
+        width: 100%;
+        height: 100px;
+    }
+    .skill{
+        height: 20%;
+        width: 100%;
+    }
+    .b{
+        width: 30px;
+        height: 30px;
+    }
+    .s1{
+        top: 4px;
+    }
+    .s5{
+        bottom: 4px;
+    }
+    .s3{
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    /* footer{
+        position: fixed;
+        bottom: 0;
+    } */
+}
+
+.s1b1:hover, .s2b1:hover, .s2b3:hover, .s3b1:hover, .s3b5:hover, .s4b1:hover, .s4b3:hover, .s5b1:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+a:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
