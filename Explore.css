@@ -1,0 +1,79 @@
+*{
+    font-family: 'Balsamiq Sans';
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background: linear-gradient(to right, rgb(43, 6, 73, 0.8), rgb(23, 14, 102, 0.8), rgb(43, 6, 73, 0.8), rgb(23, 14, 102, 0.8), rgb(43, 6, 73, 0.8));
+}
+.box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    text-align: center;
+    /* text-shadow: 0px 0px 3px rgb(59, 20, 82); */
+    background: linear-gradient(to right, rgb(43, 6, 73), rgb(23, 14, 102), rgb(43, 6, 73), rgb(23, 14, 102));
+    border-radius: 4px;
+    margin: 40px;
+}
+.book{
+    width: 80%; 
+    border: 2px solid rgb(10, 10, 30);
+    border-radius: 15px;
+    background: linear-gradient(to left, rgb(37, 5, 63), rgb(30, 19, 133));
+    box-shadow: 0px 0px 20px rgb(10, 10, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.p{
+    width: 90%;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bout{
+    border-radius: 10px;
+    width: 140px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 25px;
+    background-color: rgb(196, 153, 245);
+    box-shadow: rgb(123, 88, 155) 0px 0px 5px , rgb(179, 26, 171) 0px 0px 5px inset;
+}
+.bin{
+    border-radius: 10px;
+    width: 130px;
+    height: 140px;
+    position: relative;
+    top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(43, 6, 73);
+}
+h4{
+    text-align: center;
+    width: 100%;
+    border: 2px solid white;
+}
+img{
+    width: 70px;
+}
+h4 a{
+    text-decoration: none;
+}
+h4 a:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
